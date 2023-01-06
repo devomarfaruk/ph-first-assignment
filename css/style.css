@@ -104,7 +104,7 @@ header {
 /* achievement  - my goal start*/
 
 .my-goal {
-    background-color: antiquewhite;
+    background: linear-gradient(180deg, #005fac77 0%, rgba(0, 95, 172, 0) 100%);
     width: 100%;
     padding: 100px 200px 100px;
     position: relative;
