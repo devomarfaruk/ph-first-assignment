@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Work+Sans:wght@400;700;800&display=swap');
+
+* {
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(../images/banner/banner3.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: #FFFFFF;
+    overflow: hidden;
+    font-family: 'Work Sans';
+}
+
+.header-content {
+    margin: 216px 230px 165px 835px;
+    text-align: right;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 25px;
+}
+
+.header-des {
+    font-weight: 400;
+    margin-bottom: 32px;
+    font-size: 16px;
+}
+
+.header-btn {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px;
+    color: #005FAC;
+    border-color: #fff;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.header-btn:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+/* experience start here */
+
+.experience {
+    width: 1072px;
+    height: 723.3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 130px 320px 130px 205px;
+}
+
+.experience-img {
+    width: 569px;
+    margin-right: 60px;
+}
+
+.experience-img img {
+    width: 100%;
+}
+
+.experience-content {
+    width: 416px;
+}
+
+.experience-heading {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 25px;
+}
+
+.experience-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.experience-content ul {
+    list-style: none;
+}
+
+.experience-content ul li {
+    color: #444343;
+}
+
+.experience-content ul li i {
+    color: #16D887;
+    margin-right: 8px;
+}
+
+/* plans start here */
+
+.plan-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.plan-items {
+    display: flex;
+    margin: 0 230px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.plan-items img {
+    margin-bottom: 16px;
+}
+
+.topic-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+    color: #151414;
+}
+
+.topic-des {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* banner start here */
+
+.banner {
+    margin: 130px 200px;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+    width: 1140px;
+    color: #fff;
+    height: 300px;
+    overflow: hidden;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-left: 65px;
+}
+
+.banner-btn {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px;
+    color: #005FAC;
+    border-color: #fff;
+    border-radius: 5px;
+    transition: .5s;
+    margin-top: 25px;
+    margin-left: 65px;
+}
+
+.banner-btn i {
+    margin-right: 5px;
+}
+
+.banner-btn:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+/* footer start here */
+
+footer {
+    background: #151414;
+    color: #F8F8F8;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    margin: 130px 230px;
+    width: 485px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.footer-des {
+    text-align: justify;
+    margin-bottom: 24px;
+}
+
+.info-mail {
+    margin-bottom: 16px;
+}
+
+.info-contact {
+    margin-bottom: 32px;
+}
+
+.icons {
+    cursor: pointer;
+}
+
+.icons .first {
+    color: #006AFF;
+}
+
+.icons .second {
+    margin-left: 18px;
+    color: #1DA1F2;
+}
+
+.icons .last {
+    color: #FF0000;
+    margin-left: 18px;
+}
+
+.footer-right {
+    width: 325px;
+    margin-right: 230px;
+}
+
+.footer-right input {
+    padding: 16px 0px;
+    width: 325px;
+    padding-left: 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+.footer-btn {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px;
+    color: #fff;
+    background-color: #005FAC;
+    border-radius: 5px;
+    transition: .5s;
+    border-color: #005FAC;
+}
+
+.footer-btn:hover {
+    background-color: transparent;
+    color: #005FAC;
+}
