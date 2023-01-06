@@ -58,7 +58,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 130px 320px 130px 205px;
+    margin: 130px 320px 50px 205px;
 }
 
 .experience-img {
@@ -101,12 +101,76 @@ header {
     margin-right: 8px;
 }
 
+/* achievement  - my goal start*/
+
+.my-goal {
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 100px 200px 100px;
+    position: relative;
+}
+
+.goal-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 80px;
+}
+
+.achievement-fields {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.field-1 {
+    width: 30%;
+    margin: 20px;
+    height: 300px;
+    padding: 20px;
+    box-shadow: 5px 5px 50px#cdcccc;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.field-1 img {
+    width: 40%;
+    height: 30%;
+    margin-bottom: 15px;
+
+}
+
+.field-title {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.goal-btn {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px 25px;
+    color: #fff;
+    background-color: #005FAC;
+    border-radius: 5px;
+    transition: .5s;
+    border-color: transparent;
+    margin-left: 42%;
+}
+
+.goal-btn:hover {
+    background-color: transparent;
+    border-color: #005FAC;
+    color: #005FAC;
+}
+
 /* plans start here */
 
 .plan-title {
     text-align: center;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 45px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
