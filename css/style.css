@@ -17,6 +17,70 @@ header {
     font-family: 'Work Sans';
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    background-color: #005fac52;
+    box-shadow: 5px 5px 50px #6e6e6e75;
+}
+
+nav ul {
+    text-align: right;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+nav ul li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    background-color: #fff;
+    width: 0%;
+    height: 2px;
+    transition: .5s;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
+
+.nav-btn {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+    position: relative;
+    transition: .5s;
+}
+
+.nav-btn:hover {
+    background-color: #fff;
+    color: #005FAC;
+}
+
+nav .logo {
+    width: 50px;
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img {
+    width: 100%;
+    margin-right: 5px;
+}
+
 .header-content {
     margin: 216px 230px 165px 835px;
     text-align: right;
