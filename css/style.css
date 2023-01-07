@@ -34,9 +34,10 @@ nav ul {
 }
 
 nav ul li {
-    margin-right: 20px;
+    margin: 0 20px;
     cursor: pointer;
     position: relative;
+    font-size: 18px;
 }
 
 nav ul li::after {
@@ -63,6 +64,7 @@ nav ul li:hover::after {
     border-color: #fff;
     position: relative;
     transition: .5s;
+    margin-left: 10px;
 }
 
 .nav-btn:hover {
